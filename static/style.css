@@ -1,0 +1,80 @@
+body{
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: #282828;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #FFF;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #FFF;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+    background-color: #45a049;
+}
+.results{
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.results .danger{
+    color: #FF4C4C;
+}
+
+.results .safe{
+    color: #4CAF50;
+}
+
+.results img.result-img{
+    margin-top: 1rem;
+    max-width: 80%;
+    max-height: 300px;
+    border-radius: 10px;
+}
